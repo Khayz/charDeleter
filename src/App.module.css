@@ -1,0 +1,27 @@
+.App {
+	width: 80%;
+	margin: auto;
+	border-radius: 8px;
+	background-color: #e2f3f5;
+}
+
+.App div {
+	display: flex;
+	justify-content: center;
+}
+
+.App input {
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	outline: none;
+	border-radius: 5px;
+	padding: 8px;
+	font-size: 15px;
+}
+
+.App .listChars {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
